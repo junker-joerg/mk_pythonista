@@ -16,3 +16,5 @@ for row in con.execute("select firstname, lastname from person"):
 	print(row)
 
 print("I just deleted", con.execute("delete from person").rowcount, "rows")
+
+# Test 19.4.2020
